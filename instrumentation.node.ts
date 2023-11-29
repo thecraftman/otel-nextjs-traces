@@ -8,7 +8,7 @@ import { SemanticResourceAttributes } from '@opentelemetry/semantic-conventions'
 
 // Initialize OTLP trace exporter
 const traceExporter = new OTLPTraceExporter({
-  url: 'https://api.axiom.co/v1/traces', // Make sure this URL is correct for traces
+  url: 'https://api.axiom.co/v1/traces',
   headers: {
     'Authorization': 'Bearer ',
     'X-Axiom-Dataset': ''
