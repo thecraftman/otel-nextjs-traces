@@ -14,8 +14,8 @@ var sdk = new sdk_node_1.NodeSDK({
     spanProcessor: new sdk_trace_node_1.SimpleSpanProcessor(new exporter_trace_otlp_http_1.OTLPTraceExporter({
         url: 'https://api.axiom.co/v1/traces',
         headers: {
-            'Authorization': 'Bearer xaat-79d29c3f-d2f6-4d16-810e-847701f5aedb',
-            'X-Axiom-Dataset': 'otel-next',
+            'Authorization': 'Bearer ',
+            'X-Axiom-Dataset': '',
         },
     })),
 });

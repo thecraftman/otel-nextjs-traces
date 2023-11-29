@@ -10,8 +10,8 @@ import { SemanticResourceAttributes } from '@opentelemetry/semantic-conventions'
 const traceExporter = new OTLPTraceExporter({
   url: 'https://api.axiom.co/v1/traces', // Make sure this URL is correct for traces
   headers: {
-    'Authorization': 'Bearer xaat-bb862ce8-15b3-4eeb-981f-6c290ef9ec71',
-    'X-Axiom-Dataset': 'otel-next'
+    'Authorization': 'Bearer ',
+    'X-Axiom-Dataset': ''
   },
 });
 
